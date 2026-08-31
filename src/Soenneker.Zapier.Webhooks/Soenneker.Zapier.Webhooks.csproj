@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>A utility library for Zapier webhook calling</Description>
+        <Description>Sends JSON payloads to Zapier webhook URLs and returns the response body.</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Zapier.Webhooks</AssemblyName>

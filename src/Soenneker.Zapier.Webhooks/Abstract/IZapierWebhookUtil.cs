@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 namespace Soenneker.Zapier.Webhooks.Abstract;
 
 /// <summary>
-/// A utility library for Zapier webhook calling
+/// Sends JSON payloads to Zapier webhook URLs.
 /// </summary>
 public interface IZapierWebhookUtil
 {

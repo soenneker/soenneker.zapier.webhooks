@@ -8,7 +8,6 @@ using Soenneker.Utils.HttpClientCache.Abstract;
 
 namespace Soenneker.Zapier.Webhooks;
 
-/// <inheritdoc cref="IZapierWebhookUtil"/>
 public sealed class ZapierWebhookUtil : IZapierWebhookUtil
 {
     private const string _clientId = nameof(ZapierWebhookUtil);

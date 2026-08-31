@@ -6,12 +6,12 @@ using Soenneker.Utils.HttpClientCache.Registrar;
 namespace Soenneker.Zapier.Webhooks.Registrars;
 
 /// <summary>
-/// A utility library for Zapier webhook calling
+/// Registers the Zapier webhook sender.
 /// </summary>
 public static class ZapierWebhookUtilRegistrar
 {
     /// <summary>
-    /// Adds <see cref="IZapierWebhookUtil"/> as a singleton service. <para/>
+    /// Adds <see cref="IZapierWebhookUtil"/> as a singleton service.
     /// </summary>
     /// <param name="services">Service collection that receives the registration.</param>
     /// <returns>The same service collection, so additional registrations can be chained.</returns>
@@ -23,7 +23,7 @@ public static class ZapierWebhookUtilRegistrar
     }
 
     /// <summary>
-    /// Adds <see cref="IZapierWebhookUtil"/> as a scoped service. <para/>
+    /// Adds <see cref="IZapierWebhookUtil"/> as a scoped service while retaining the singleton HTTP client cache.
     /// </summary>
     /// <param name="services">Service collection that receives the registration.</param>
     /// <returns>The same service collection, so additional registrations can be chained.</returns>
